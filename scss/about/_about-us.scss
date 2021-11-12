@@ -1,0 +1,40 @@
+#about-us{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.about-us__title{
+  @include regular(2rem,1.1,$boldC);
+}
+.about-us__content{
+  padding: 1.25rem;  
+}
+.about-us {
+
+  &__inner-title {
+    @include regular(18px,1.1,$boldC);
+    margin-bottom: 8px;  
+  }
+
+  &__sub-title {
+    @include regular(14px,20px,$aaa);
+    margin-bottom: 16px;
+    font-weight: bolder;
+  }
+
+  &__text {
+    @include regular(14px,20px,$aaa);
+    text-align: justify;
+  }
+
+  &__item {
+    @include regular(14px,20px,$aaa);
+    text-align: justify;
+  }
+}
+.inner-us{
+  margin-bottom: 10px;
+}
+.about-margin{
+  margin-bottom: 16px;
+}

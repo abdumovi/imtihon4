@@ -1,0 +1,14 @@
+.partnores__container{
+  border-top: 1px solid $e5e5;
+}
+.partnores__list{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.partnores__link{
+  opacity: .5;
+  transition: all 0.4s;
+}
+.partnores__link:hover{
+  opacity: 1;
+}

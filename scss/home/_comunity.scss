@@ -1,0 +1,118 @@
+#comunity{
+  padding-bottom: 60px;
+}
+.comunity__content{
+  border: 1px solid $e2e2;
+  border-radius: 5px; 
+  padding: 40px 0;
+  @include align;
+}
+.comunity__icon{
+  width: 32.803%;
+  font-size: 64px;
+  height: 121px;
+  color: $hoverC;
+  @include align;
+  justify-content: center;
+  border-right: 1px solid $e2e2;
+}
+.comunity__des{
+  width: 67.197%;
+  padding: 0 15px 0 25px; 
+}
+.comunity__text{
+  font-size: 13px;
+  color: $aaa;
+  margin-bottom: 10px;  
+}
+.comunity__sub-title{
+  font-size: 12px;
+  font-weight: 600;
+  color: $cardC;
+  margin-bottom: 15px;
+  text-transform: uppercase;  
+}
+.comunity__link{
+  font-size: 30px;
+  font-weight: 400;
+  color: $hoverC;
+  margin-bottom: 15px;
+  line-height: 30px; 
+  text-decoration: none; 
+  display: block;
+  @include hover-text;
+}
+.comunity__email{
+  font-size: 14px;
+  color:$boldC;
+  font-weight: 400; 
+  text-decoration: none; 
+
+  &:hover{
+    color: $boldC;
+  }
+}
+.comunity__title{
+  font-size: 14px;
+  color: $regular;
+  line-height: 20px; 
+  margin-bottom: 10px; 
+}
+.comunity__form{
+  max-width: 318px;
+  position: relative;
+}
+.comunity__lable{
+  width: 100%;
+}
+.comunity__input{
+  height: 38px;
+  border: 1px solid $e2e2;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0 45px 0 15px;
+  width: 100%;
+  outline-color: $e2e2;
+}
+.comunity__btn{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+@include respon(1060px){
+  .comunity__content{
+    min-height: 243px;
+  }
+}
+@include respon(768px){
+  .comunity__content{
+    flex-direction: column;
+  }
+  .comunity__icon{
+    border: none;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 9px;
+  }
+  .comunity__des {
+    width: 100%;
+    text-align: center;
+  }
+  .comunity__form{
+    max-width: 100%;
+  }
+  .comunity__elements:not(:last-child){
+    margin-bottom: 15px;
+  }
+ 
+}
+.products__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,35 @@
+#about-hero{
+  background-repeat: no-repeat;
+  background-image: url('../../img/about-bg.jpg');
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background-position: center;
+  background-size: cover;
+}
+.about-hero__container{
+  @include align;
+  min-height: 300px;
+}
+.about-hero__link{
+  display: block;
+  text-decoration: none;
+  color: $cardC;
+
+  &:hover{
+    color: $hoverC;
+  }
+}
+.about-hero__links span{
+  margin: 0 10px;
+  font-size: 12px;
+  
+  & .bi-chevron-right{
+    vertical-align: sub;
+  }
+}
+.about-hero__links{
+  @include align;
+
+}

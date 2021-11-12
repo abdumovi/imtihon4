@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <!-- boxIcon-link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- botstrap-link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="about-all">
+  <div class="big-wrap">
+    <div class="top-btn">
+      <a class="top-btn__link" href="#"><i class="bi bi-chevron-double-up"></i></a>
+    </div>
+    <section id="site-header">
+      <h2 class="site-header__title visualy-hidden">Freshio</h2>
+      <div class="site-header__container container">
+        <header class="site-header__row">
+          <div class="site-header__menu">
+            <button class="site-header__menu-btn" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="bi bi-list"></i></button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <button class="left-menu__btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="bi bi-x-lg"></i>Close</button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="left-menu__lst">
+                  <li class="left-menu__item padd-none"><a class="left-menu__link padd-link" href="#">Home</a><span
+                      class="left-menu__icons"><i class="bi bi-chevron-double-right"></i></span></li>
+                  <li class="left-menu__item padd-none"><a class="left-menu__link padd-link" href="#">Shop</a><span
+                      class="left-menu__icons"><i class="bi bi-chevron-double-right"></i></span></li>
+                  <li class="left-menu__item padd-none"><a class="left-menu__link padd-link" href="#">Pages</a><span
+                      class="left-menu__icons"><i class="bi bi-chevron-double-right"></i></span></li>
+                  <li class="left-menu__item"><a class="left-menu__link" href="#">Blog</a></li>
+                  <li class="left-menu__item"><a class="left-menu__link" href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="site-header__logos">
+            <a class="site-header__logo" href="index.html">
+              <img src="./img/logo.png" alt="site-logo">
+            </a>
+          </div>
+          <div class="site-header__searchs">
+            <form class="site-header__forms" action="#" method="post">
+              <div class="site-header__forms-icon">
+                <i class="bi bi-search"></i>
+              </div>
+              <label>
+                <input class="site-header__search" type="search" autocomplete="off" required
+                  placeholder="Enter Keyword..." id="prosearch" name="search">
+              </label>
+              <button class="site-header__btn" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="site-header__icons">
+            <ul class="site-header__list">
+              <li class="site-header__item item--none"><a class="site-header__link" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-person"></i></a></li>
+              <li class="site-header__item item--none"><a class="site-header__link" href="#"><i
+                    class="bi bi-suit-heart"></i></a></li>
+              <li class="site-header__item"><a class="site-header__link bag" href="#"><i class="bi bi-basket"></i></a>
+              </li>
+            </ul>
+            <div class="site-header__bag">
+              <a class="site-header__bag-link" href="#"><i class="bi bi-basket"></i></a>
+            </div>
+          </div>
+        </header>
+        <ul class="site-header__fix-block fix-block">
+          <li class="fix-block__item">
+            <a class="fix-block__link" href="#">
+              <i class="bi bi-shop-window"></i>
+              <p class="fix-block__text">shop</p>
+            </a>
+          </li>
+          <li class="fix-block__item ">
+            <a class="fix-block__link sum" href="#">
+              <i class="bi bi-suit-heart"></i>
+              <p class="fix-block__text">wishlist</p>
+            </a>
+          </li>
+          <li class="fix-block__item">
+            <a class="fix-block__link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight" href="#">
+              <i class="bi bi-person"></i>
+              <p class="fix-block__text">Account</p>
+            </a>
+          </li>
+          <li class="fix-block__item">
+            <a class="fix-block__link searchs" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+              aria-controls="offcanvasTop" href="#">
+              <i class="bi bi-search icon--search"></i>
+              <p class="fix-block__text">Search</p>
+            </a>
+          </li>
+        </ul>
+        <div class="site-header__rigiht-menu rigiht-menu">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-body">
+              <div class="rigiht-menu__header">
+                <a href="#">
+                  <img src="./img/logo.png" alt="logo">
+                </a>
+                <button type="button" class="rigiht-menu__btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="bi bi-x-lg"></i></button>
+              </div>
+              <h3 class="rigiht-menu__title">Existing Account Login</h3>
+              <form class="rigiht-menu__login" action="#" method="post">
+                <label>
+                  <input class="rigiht-menu__input" type="email" required autocomplete="off"
+                    placeholder="Email Address">
+                </label>
+                <label class="rigiht-menu__key-lable">
+                  <input class="rigiht-menu__input" type="password" required autocomplete="off" placeholder="Password">
+                  <i class="bi bi-key"></i>
+                </label>
+                <div class="rigiht-menu__acardion-block">
+                  <label class="rigiht-menu__acardion-lable">
+                    <input class="rigiht-menu__checkbox" type="checkbox">
+                    <span class="rigiht-menu__check-lable">Remember Me</span>
+                  </label>
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <a class="rigiht-menu__link" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Forgot Password ? </a>
+                  </h2>
+                </div>
+                <button class="rigiht-menu__sumbit" type="submit">Login</button>
+              </form>
+              <div class="rigiht-menu__check">
+                  <div class="accordion accordion-flush rigiht-menu__acardion" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <h2 class="rigiht-menu__acardion-title">Reset Password</h2>
+                          <form class="rigiht-menu__acardion-form" action="#" method="post">
+                            <label class="rigiht-menu__acardion-inner-lable"><input class="rigiht-menu__input" required autocomplete="off" placeholder="Email Address" type="email"></label>
+                            <button class="rigiht-menu__sumbit" type="submit">Reset Password</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="rigiht-menu__socials">
+                <h3 class="rigiht-menu__socials-title"> Connect with Social Networks</h3>
+                <ul class="rigiht-menu__socials-lst">
+                  <li class="rigiht-menu__socials-item"><a class="rigiht-menu__socials-link" href="#"><i
+                        class='bx bxl-facebook'></i></a></li>
+                  <li class="rigiht-menu__socials-item"><a class="rigiht-menu__socials-link" href="#"><i
+                        class='bx bxl-google'></i></a></li>
+                  <li class="rigiht-menu__socials-item"><a class="rigiht-menu__socials-link" href="#"><i
+                        class='bx bxl-twitter'></i></a></li>
+                </ul>
+              </div>
+              <div class="rigiht-menu__registor">
+                <h3 class="rigiht-menu__socials-title registor-title">New Account Register</h3>
+                <form class="rigiht-menu__login" action="#" method="post">
+                  <label>
+                    <input class="rigiht-menu__input" type="text" required autocomplete="off" placeholder="First Name">
+                  </label>
+                  <label>
+                    <input class="rigiht-menu__input" type="text" required autocomplete="off" placeholder="Last Name">
+                  </label>
+                  <label>
+                    <input class="rigiht-menu__input" type="email" required autocomplete="off"
+                      placeholder="Email Address">
+                  </label>
+                  <label class="rigiht-menu__key-lable">
+                    <input class="rigiht-menu__input" type="password" required autocomplete="off" placeholder="Password">
+                    <i class="bi bi-key"></i>
+                  </label>
+                  <div class="rigiht-menu__check">
+                    <label>
+                      <input class="rigiht-menu__checkbox" type="checkbox">
+                      <span class="rigiht-menu__check-lable">I agree to the terms.</span>
+                    </label>
+                  </div>
+                  <button class="rigiht-menu__sumbit" type="submit">Login</button>
+                </form>
+              </div>
+              <div class="rigiht-menu__lenguages lenguages">
+                <div class="lenguages__item">
+                  <div class="lenguages__flags">
+                    <p class="lenguages__text">Language:</p>
+                    <a href="#"><img src="./img/flag1.jpg" alt="flag"></a>
+                    <a href="#"><img src="./img/flag2.jpg" alt="flag"></a>
+                    <a href="#"><img src="./img/flag3.jpg" alt="flag"></a>
+                    <a href="#"><img src="./img/flag4.jpg" alt="flag"></a>
+                    <a href="#"><img src="./img/flag5.jpg" alt="flag"></a>
+                    <a href="#"><img src="./img/flag6.jpg" alt="flag"></a>
+                    <p class="lenguages__text curensy">Currency:</p>
+                    <a class="lenguages__curnsy curnsy-activ" href="#">EUR</a><a class="lenguages__curnsy"
+                      href="#">USD</a>
+                  </div>
+                </div>
+                <ul class="lenguages__list">
+                  <li class="lenguages__item"><i class="fas lenguages__icon fa-sign-in-alt"></i><a class="lenguages__link"
+                      href="#">Sign in</a></li>
+                  <li class="lenguages__item"><i class="fal lenguages__icon fa-user"></i><a class="lenguages__link"
+                      href="#">My account</a></li>
+                  <li class="lenguages__item"><i class="fal lenguages__icon fa-heart"></i><a class="lenguages__link"
+                      href="#">Wishlist (0)</a></li>
+                  <li class="lenguages__item"><i class="fad lenguages__icon fa-clone"></i><a class="lenguages__link"
+                      href="#">Compare (0)</a></li>
+                  <li class="lenguages__item"><i class="far lenguages__icon fa-check-square"></i><a
+                      class="lenguages__link" href="#">Checkout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-header__fix">
+        <p class="site-header__fix-text">THEME OPTIONS</p>
+      </div>
+      <div class="site-header__top-search top-search">
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-body top-search__body">
+            <form class="site-header__forms" action="#" method="post">
+              <div class="site-header__forms-icon">
+                <i class="bi bi-search"></i>
+              </div>
+              <label class="top-search__lable">
+                <input class="site-header__search" type="search" autocomplete="off" required
+                  placeholder="Enter Keyword..." id="search" name="search">
+              </label>
+              <button class="site-header__btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-nav" id="site-nav">
+      <h2 class="site-nav__hidden-title visualy-hidden">Freshio</h2>
+      <div class="site-nav__container container">
+        <div class="site-nav__elements">
+          <div class="site-nav__drop-doun">
+            <a class="site-nav__drop-link about-nav-link" href="#"><i class="bi site-nav__drop-icon bi-list"></i>Shop by
+              Department</a>
+            <ul class="site-nav__drop-list element--none">
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="fal site-nav__drop-icons fa-salad"></i>Fruits & Vegetables</a></li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="fal site-nav__drop-icons fa-meat"></i>Supplyments</a><i
+                  class='bx site-nav__rigiht bx-chevron-right'></i>
+              </li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="fal site-nav__drop-icons fa-egg-fried"></i>Dairy Bread & Eggs</a><i
+                  class='bx site-nav__rigiht bx-chevron-right'></i>
+              </li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="far site-nav__drop-icons fa-pizza-slice"></i>Package Foods</a></li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="far site-nav__drop-icons fa-apple-alt"></i>Beauty & Care</a><i
+                  class='bx site-nav__rigiht bx-chevron-right'></i>
+              </li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="far site-nav__drop-icons fa-volleyball-ball"></i>Health & Wellness</a></li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="fal site-nav__drop-icons fa-ice-cream"></i>Baby & Infants</a></li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link" href="#"><i
+                    class="far site-nav__drop-icons fa-leaf"></i>Home Care</a></li>
+              <li class="site-nav__drop-item"><a class="site-nav__drop-inner-link none-border" href="#"><i
+                    class="fad site-nav__drop-icons fa-salad"></i>Hot Offers</a></li>
+            </ul>
+          </div>
+          <nav class="site-nav__navigation navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Home<i class='bx navigation__icon bx-chevron-down'></i></a>
+                <ul class="navigation__home-drop">
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 1</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 2</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 3</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 4</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 5</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 6</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 7</a></li>
+                  <li class="navigation__home-item"><a class="navigation__home-link" href="#">Home 8</a></li>
+                </ul>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Shop<i class='bx navigation__icon bx-chevron-down'></i></a>
+                <div class="navigation__shop-drop">
+                  <div class="navigation__shop-des">
+                    <h3 class="navigation__shop-title">Categories 1</h3>
+                    <ul class="navigation__shop-list">
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Vegatable</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Tomato</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Cabbage</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Juice</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Meat</a></li>
+                    </ul>
+                  </div>
+                  <div class="navigation__shop-des">
+                    <h3 class="navigation__shop-title">Categories 2</h3>
+                    <ul class="navigation__shop-list">
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Vegatable</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Tomato</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Cabbage</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Juice</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Meat</a></li>
+                    </ul>
+                  </div>
+                  <div class="navigation__shop-des">
+                    <h3 class="navigation__shop-title">Categories 3</h3>
+                    <ul class="navigation__shop-list">
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Vegatable</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Tomato</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Cabbage</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Juice</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Meat</a></li>
+                    </ul>
+                  </div>
+                  <div class="navigation__shop-des">
+                    <h3 class="navigation__shop-title">Categories 4</h3>
+                    <ul class="navigation__shop-list">
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Vegatable</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Tomato</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Cabbage</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Juice</a></li>
+                      <li class="navigation__shop-item"><a class="navigation__shop-link" href="#">Meat</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Pages<i class='bx navigation__icon bx-chevron-down'></i></a>
+                <div class="navigation__pages-drop">
+                  <div class="navigation__pages-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/8c/16/f9/8c16f9f024af16977adc1f618872eb8b.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/8c/16/f9/8c16f9f024af16977adc1f618872eb8b.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/8c/16/f9/8c16f9f024af16977adc1f618872eb8b.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/8c/16/f9/8c16f9f024af16977adc1f618872eb8b.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/8c/16/f9/8c16f9f024af16977adc1f618872eb8b.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item navigation--last-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/c5/d9/02/c5d9025b68250832a31eac3b6d344955.jpg" alt="img"></a>
+                  </div>
+                  <div class="navigation__pages-item navigation--last-item"><a href="#"><img
+                        src="https://i.pinimg.com/originals/c5/d9/02/c5d9025b68250832a31eac3b6d344955.jpg" alt="img"></a>
+                  </div>
+                </div>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Blog</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="about-hero">
+        <h2 class="site-header__title visualy-hidden">Freshio</h2>
+        <div class="about-hero__container container">
+          <div class="about-hero__links">
+            <a class="about-hero__link" href="index.html">Home</a>
+            <span><i class="bi bi-chevron-right"></i></span>
+            <a class="about-hero__link" href="#">About us</a>
+          </div>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="about-us__container container">
+          <h2 class="about-us__title">About us</h2>
+          <div class="about-us__content">
+            <h2 class="about-us__title inner-us">About us</h2>
+            <div class="about-us__row row">
+              <div class="about-us__elements col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3 class="about-us__inner-title">Our company</h3>
+                <p class="about-us__sub-title">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                  tempor incididun.</p>
+                <p class="about-us__text about-margin">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor
+                  sit amet conse ctetur adipisicing elit.</p>
+                <ul class="about-us__list about-margin">
+                  <li class="about-us__item">Top quality products</li>
+                  <li class="about-us__item">Best customer service</li>
+                  <li class="about-us__item ">30-days money back guarantee</li>
+                </ul>
+              </div>
+              <div class="about-us__elements col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3 class="about-us__inner-title">Our team</h3>
+                <p class="about-us__sub-title">Lorem set sint occaecat cupidatat non</p>
+                <p class="about-us__text about-margin">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              </div>
+              <div class="about-us__elements col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h3 class="about-us__inner-title">Testimonials</h3>
+                <p class="about-us__text">“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim.”</p>
+                <p class="about-us__sub-title">Lorem ipsum dolor sit</p>
+                <p class="about-us__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Lorem
+                  ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.</p>
+                <p class="about-us__sub-title">Ipsum dolor sit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-comunty">
+        <h2 class="site-header__title visualy-hidden">Freshio</h2>
+        <div class="about-comunty__container">
+          <div class="about-comunty__contents">
+            <div class="about-comunty__elements about-comunty-pad">
+              <div class="about-comunty__des">
+                <i class="fal fa-headphones-alt"></i>
+              </div>
+              <div class="about-comunty__inner">
+                <p class="comunity__sub-title">CALL US 24/7</p>
+                <a class="comunity__link about-comunty-tel" href="tel:18008866991">(1800)-88-66-991</a>
+              </div>
+            </div>
+            <div class="about-comunty__elements">
+              <div class="about-comunty__des">
+                <i class="fal fa-envelope-open-text"></i>
+              </div>
+              <div class="about-comunty__inner">
+                <p class="comunity__sub-title">EMAIL US</p>
+                <a class="comunity__email about-comunty-emeil" href="mailto:contact@example.com"
+                  title="contact@example.com">demo@demo.com</a>
+              </div>
+            </div>
+          </div>
+          <a class="about-comunty__imgs" href="#">
+            <img class="about-comunty__img" src="./img/about-visa.png" alt="visa">
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="about-footer" id="site-footer">
+    <div class="site-footer__container container">
+      <div class="site-footer__content">
+        <div class="site-footer__elements footer-last-element">
+          <h3 class="site-footer__title">Store Location</h3>
+          <p class="site-footer__text footer--margin">9066 Green Lake Drive Chevy <br>
+            Chase, MD 20815</p>
+          <time class="site-footer__text" datetime="2021-11-10">
+            <span class="site-footer__span">Monday - Saturday:</span>
+            <span>8:00 am - 4:00pm</span>
+          </time>
+          <time class="site-footer__text" datetime="2021-11-10">
+            <span class="site-footer__span">Sunday</span>
+            <span>8:00 am - 4:00pm</span>
+          </time>
+        </div>
+        <div class="site-footer__elements">
+          <h3 class="site-footer__title">Information</h3>
+          <ul class="site-footer__list">
+            <li class="site-footer__item"><a class="site-footer__link" href="#">About us</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Blog</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Check out</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Contact</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Service</a></li>
+          </ul>
+        </div>      
+        <div class="site-footer__elements">
+          <h3 class="site-footer__title">My Account</h3>
+          <ul class="site-footer__list">
+            <li class="site-footer__item"><a class="site-footer__link" href="#">My Account</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Contact</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Shopping cart</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Shop</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__elements">
+          <h3 class="site-footer__title">categories</h3>
+          <ul class="site-footer__list">
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Fruits & Vegetables</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Dairy Products</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Package Foods</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Beverage</a></li>
+            <li class="site-footer__item"><a class="site-footer__link" href="#">Beverage</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__elements footer-last-element">
+          <h3 class="site-footer__title">accept payment</h3>
+          <div class="site-footer__img">
+           <a href="#">
+            <img src="./img/footer.png" alt="footer">
+           </a>
+          </div>
+          <h3 class="site-footer__title">FOLLOW US</h3>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__last">
+      <p class="site-footer__text">Copyright © 2021 Freshio. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- main script -->
+  <script src="js/about.js"></script>
+</body>
+
+</html>

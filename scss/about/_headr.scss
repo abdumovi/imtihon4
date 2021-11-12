@@ -1,0 +1,22 @@
+.about-all{
+  background-color: $white;
+  background-image: url(''),url('');
+}
+.about-nav{
+  background-color: $boldC;
+}
+.about-nav-link{
+  border-radius: 30px;
+  width: 100%;
+  background-color: $hoverC;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 14px 30px;
+
+  & .bi-list{
+    margin-left: 0;
+  }
+  &::after{
+    content: none;
+  }
+}
