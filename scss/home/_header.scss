@@ -6,6 +6,11 @@
   display: inline-block;
   margin-bottom: 65px;
 }
+@include respon(1330px){
+  .wrapper{
+    width: 99%;
+  }
+}
 .top {
   padding-top: 21px;
   padding-bottom: 21px;

@@ -512,6 +512,12 @@ p {
   margin-bottom: 65px;
 }
 
+@media screen and (max-width: 1330px) {
+  .wrapper {
+    width: 99%;
+  }
+}
+
 .top {
   padding-top: 21px;
   padding-bottom: 21px;
